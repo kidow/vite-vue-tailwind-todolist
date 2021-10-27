@@ -86,6 +86,8 @@ const inputRef = ref<HTMLInputElement | null>(null)
 const state = reactive<State>({ text: '', list: [] })
 
 function addItem() {
+  if (!state.text) return
+
   state.list.push(state.text)
   state.text = ''
 }
