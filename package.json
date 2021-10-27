@@ -7,8 +7,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@heroicons/vue": "^1.0.5",
     "daisyui": "^1.16.0",
-    "vue": "^3.2.16"
+    "tailwindcss-border-gradients": "^2.0.3",
+    "vue": "^3.2.16",
+    "vue-toast-notification": "^2.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
