@@ -48,7 +48,7 @@
             class="px-4 flex items-center group h-7"
           >
             <div class="flex-1">{{ item }}</div>
-            <div class="hidden group-hover:block select-none">
+            <div class="block sm:hidden group-hover:block select-none">
               <button
                 @click="() => removeItem(key)"
                 class="btn btn-circle btn-xs"
